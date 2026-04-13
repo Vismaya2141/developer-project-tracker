@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - DevTracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+    <aside class="sidebar">
+        <div class="logo">Project Tracker</div>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="projects.html">My Projects</a>
+            <a href="tasks.html">Task Board</a>
+            <a href="profile.html" class="active">Profile</a>
+        </nav>
+        <div class="sidebar-footer">
+            <a href="login.html">Logout</a>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="top-nav">
+            <h1>My Account</h1>
+        </header>
+        <section class="content-area">
+            <div class="basic-profile-card">
+                <h3 class="section-title">Personal Information</h3>
+                <div class="info-box">
+                    <div class="info-row">
+                        <label>Full Name</label>
+                        <p id="user-name">....</p> 
+                    </div>
+                    <div class="info-row">
+                        <label>Email Address</label>
+                        <p id="user-email">....</p>
+                    </div>
+                    <div class="info-row">
+                        <label>Account Type</label>
+                        <p id="user-role">Developer</p>
+                    </div>
+                    <div class="info-row">
+                        <label>Member Since</label>
+                        <p id="user-joined">April 2026</p>
+                    </div>
+                </div>
+                <div class="danger-zone">
+                    <hr>
+                    <p style="font-size: 12px; color: #888; margin-top: 15px;">Account Management</p>
+                    <button class="logout-link-btn" onclick="location.href='login.html'">Switch User</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

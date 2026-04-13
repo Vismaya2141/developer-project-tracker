@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Board</title>
+</head>
+<body class="dashboard-body">
+    <aside class="sidebar">
+        <div class="logo">Project Tracker</div>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="projects.html">My Projects</a>
+            <a href="tasks.html" class="active">Task Board</a>
+        </nav>
+        <div class="sidebar-footer">
+            <a href="login.html">Logout</a>
+        </div>
+    </aside>
+<main class="main-content">
+    <header class="top-nav">
+        <h1>Task Board</h1>
+        <!-- <div class="task-stats">
+            <span id="taskCount">Task Total</span>
+        </div> -->
+    </header>
+    <section class="content-area">
+        <div class="task-input-container">
+            <input type="textfield" id="taskInput" placeholder="Add a new task">
+            <button id="addTaskbtn">Add Task</button>
+        </div>
+        <ul id="tasklist" class="task-list">
+
+        </ul>
+    </section>
+</main>
+<script src="tasks.js"></script>

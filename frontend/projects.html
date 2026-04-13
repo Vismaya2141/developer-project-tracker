@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="style.css">
+<body class="dashboard-body">
+    <aside class="sidebar">
+        <div class="logo">Project Tracker</div>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="projects.html" class="active">My Projects</a>
+            <a href="tasks.html">Task Board</a>
+        </nav>
+        <div class="sidebar-footer">
+            <a href="login.html">Logout</a>
+        </div>
+    </aside>    
+    <main class="main-content">
+        <header class="top-nav">
+            <h1>My Projects</h1>
+            <button class="new-project-btn">New Project</button>
+        </header>
+        <section class="content-area">
+            <div class="project-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Project 1</h3>
+                        <span class="badge active">Active</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="view-btn">View Tasks</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Project 2</h3>
+                        <span class="badge completed">Completed</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="view-btn">View Tasks</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Project 3</h3>
+                        <span class="badge onhold">On Hold</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="view-btn">View Tasks</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>

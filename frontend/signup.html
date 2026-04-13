@@ -1,0 +1,32 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="login-container">
+    <form class="login-form" id="signupform">
+        <h2><center>Register</center></h2>
+        <div class="input-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter full name">
+            <span class="error-msg" id="nameError"></span>
+        </div>
+        <div class="input-group">
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" placeholder="Enter email address">
+            <span class="error-msg" id="emailError"></span>
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+            <span class="error-msg" id="passError"></span>
+        </div>
+        <div class="input-group">
+            <label for="confirmpass">Confirm Password</label>
+            <input type="password" id="confirmPassword" placeholder="Re-enter Password">
+            <span class="error-msg" id="confirmError"></span>
+        </div>
+        <button type="submit" class="login-btn">Register</button>
+        <p class="signup-link">Already have an account?<a href="login.html">Login</a></p>
+    </form>
+</div>
+<script src="validation.js"></script>
