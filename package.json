@@ -1,0 +1,24 @@
+{
+  "name": "developer-project-tracker",
+  "version": "1.0.0",
+  "description": "Developer Project Tracker\r A full-stack application to track development projects and tasks.\r Tech stack:HTML,CSS,JS,Node.js,MySQL,Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vismaya2141/developer-project-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vismaya2141/developer-project-tracker/issues"
+  },
+  "homepage": "https://github.com/Vismaya2141/developer-project-tracker#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
